@@ -212,7 +212,7 @@ function History() {
             </tr>
           </thead>
           <tbody>
-            {paginatedData.map((feed, index) => (
+            {paginatedData.map((feed, _index) => (
               <tr key={feed.created_at} className="hover:bg-gray-100">
                 <td className="border border-gray-400 px-4 py-2">{no++}</td>
                 <td className="border border-gray-400 px-4 py-2">

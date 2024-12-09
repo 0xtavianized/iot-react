@@ -15,7 +15,7 @@ type Response = {
 
 function App() {
   const [data, setData] = useState<Response>();
-  const [error, setError] = useState<null | string>(null);
+  const [, setError] = useState<null | string>(null);
 
   useEffect(() => {
     const fetchData = async () => {
